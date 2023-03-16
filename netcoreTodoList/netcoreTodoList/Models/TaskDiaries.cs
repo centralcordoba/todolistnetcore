@@ -3,14 +3,15 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("Task")]
-    public class Task
+    [Table("TaskDiaries")]
+    public class TaskDiaries
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        
-
+       
+        [Key]   
+        public int TaskId { get; set; }
         public string TaskName { get; set; }
+
+        public string Status { get; set; }
 
         public string DeadLine { get; set; }    
 

@@ -1,6 +1,7 @@
 ﻿namespace netcoreTodoList.Context
 {
     using Microsoft.EntityFrameworkCore;
+    using netcoreTodoList.Models;
 
     public class TodoContext
         : DbContext
@@ -11,7 +12,6 @@
 
         }
 
-
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<TaskDiaries> Tasks { get; set; }
     }
 }
