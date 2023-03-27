@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kp/nl24kAOH+E8csl6hd7n6svW2MazclVXC8GSJvI7Wn7YrITB8liBGbQJ0pLEL1MsNoa9wcAEhX6o31QJGOGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emanueljimenez\\source\\repos\\netcoreTodoList\\BE\\BE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emanueljimenez\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
